@@ -1,0 +1,91 @@
+html, body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: 1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#wrapper {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+#nope {
+    position:relative;
+    color: white;
+    background: rgba(255, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    display: none;
+    box-shadow: 2px 2px 2px 2px #222;
+    border: 2px solid black;
+    font-size: 10pt;
+    color: #DDD:
+}
+
+#nope a, #nope a:active, #nope a:visited {
+    text-decoration: none;
+    margin: 2px;
+    color: #DDD;
+}
+#nope a:active, #nope a:hover {
+    color: #FFF;
+}
+
+#nope h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 15em;
+}
+
+#nope .button {
+    display: inline-block;
+    border-radius: 10px;
+    background: white;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold; 
+    border: 2px solid white;
+    padding:10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #222;
+}
+#nope .button:hover {
+    color: red;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #222;
+}
+
+#nope .button:active {
+    background: #aaa;
+    color: 000;
+}
+
+#branding {
+    display:inline-block;
+}
+#branding table {
+    width: auto !important;
+}
